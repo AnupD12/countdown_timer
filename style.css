@@ -1,0 +1,41 @@
+*{
+   box-sizing: border-box;
+}
+
+body {
+    background: url("../images/tower2.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    /* /* padding-left: 300px; */
+    padding-top: 100px; 
+    min-height: 100vh;
+    color: #FFBE33;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Redressed', cursive;
+    padding-left: 350PX;
+    font-size: 4rem;
+}
+
+.timer-container {
+    display: flex;
+    padding-left: 100px;
+}
+
+.big-text {
+    font-family: 'Redressed', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+span {
+    font-family: 'Redressed', cursive;
+    font-size: 2rem;
+
+}
